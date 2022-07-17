@@ -1,0 +1,66 @@
+body {
+    background-color: aliceblue;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.toolbar {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: aqua;
+    border: 10px solid white;
+    gap: 20px;
+  
+}
+
+.two {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.item.home {
+    background-color: bisque;
+  
+}
+.item.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    width: 20%;
+    height: auto; 
+    
+}
+
+
+
+.item {
+    background-color: tan;
+    
+}
+.container {
+    background-color: lightblue;
+    border: 5px solid slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    background-color: lightsalmon;
+    border: 5px solid indigo;
+    padding-right: 15px;
+    
+}
