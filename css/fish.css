@@ -1,5 +1,7 @@
 body {
      margin: 0px;
+     background-color: antiquewhite;
+     font-family: "Copperplate";
 }
 
 
@@ -51,6 +53,35 @@ button {
     border-radius: 50%;
     height: 35px;
     width: 35px;
-    box-shadow: insert 2px 2px 4px rgba(0,0,0,1);
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,1);
 }
 
+/* Flex Information*/
+
+.fish-info {
+    font-size: 50px;
+    font-family: "Copperplate";
+    text-align: center;
+    color: indigo;
+    margin: 0;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.fish-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 52px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 
+}
