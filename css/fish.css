@@ -1,0 +1,56 @@
+body {
+     margin: 0px;
+}
+
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding:8px;
+    border-bottom: 1px solid rgb(66, 15, 220);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-family: "Copperplate";
+}
+
+.logo {
+    margin: 8px;
+    
+    font-size: 50px;
+    color: indigo;
+    padding:0px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: indigo;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Copperplate";
+}
+
+.avi {
+    background-color: indigo;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    box-shadow: insert 2px 2px 4px rgba(0,0,0,1);
+}
+

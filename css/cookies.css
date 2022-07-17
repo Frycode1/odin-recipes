@@ -3,49 +3,48 @@ body {
 }
 
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
 
 .toolbar {
-    height: 300px;
+    padding: 8px;
     display: flex;
     align-items: center;
-    justify-items: center;
-    background-color: aqua;
-    border: 10px solid white;
-    gap: 20px;
-  
+    justify-content: space-between ;
+    background-color: rgb(26, 176, 214);
+    border: 8px solid indigo;
 }
+
 
 .two {
+    list-style-type: none;
     display: flex;
-    list-style: none;
-    gap: 10px;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
 
-.item.home {
-    background-color: bisque;
-  
+a {
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    
 }
+
+
 .item.logo {
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-between;
 }
+
 img {
-    display: block;
-    width: 20%;
-    height: auto; 
-    
+    width: 100px;
+    height: 100px;
+    padding: 0;
 }
 
 
-
-.item {
-    background-color: tan;
-    
-}
 .container {
     background-color: lightblue;
     border: 5px solid slateblue;
